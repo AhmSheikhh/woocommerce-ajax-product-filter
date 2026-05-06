@@ -14,7 +14,7 @@
 To display your products correctly, you must link the plugin to your specific **Elementor Loop Template ID**:
 
 1.  Open the file `wc-ajax-product-filter.php`.
-2.  Go to **Line 516** (inside the `wc_get_filtered_products` function).
+2.  Go to **Line 764** (inside the `wc_get_filtered_products` function).
 3.  Locate this line:
     `$output .= $elementor->frontend->get_builder_content_for_display(176, true);`
 4.  Replace **`176`** with your own Elementor Template ID. 
