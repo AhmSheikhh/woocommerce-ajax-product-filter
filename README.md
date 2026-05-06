@@ -1,5 +1,7 @@
 ## WooCommerce AJAX Product Filter
 
+**Specifically designed to render products using Elementor's Loop Builder templates.**
+
 **Shortcode:** `[wc_product_filter]`
 
 ### Core Features
